@@ -1,0 +1,19 @@
+{
+    "name": "vilija/orm",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vilija",
+            "email": "vilija.jakubaityte@gmail.com"
+        }
+    ],
+    "require": {
+        "eftec/bladeone": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "models\\": "models/",
+            "helper\\": "helper/"
+        }
+    }
+}
